@@ -1,5 +1,5 @@
 function SseSocket(req, res) {
-  req.socket.setTimeout(Infinity);
+  req.socket.setTimeout(1000000);
 
   this.res = res;
   this.res.writeHead(200, {

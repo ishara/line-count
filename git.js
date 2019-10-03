@@ -17,7 +17,7 @@ function randomChars(length) {
 }
 
 function buildTmpDirPath() {
-  return '/tmp/line-count-clone-' + randomChars(8);
+  return '/Users/ishara/codegen/RND/NODEJS/line-count/temp/line-count-clone-' + randomChars(8);
 }
 
 function deleteFolderRecursive(path) {
